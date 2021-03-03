@@ -1,0 +1,116 @@
+[
+ {
+  "taskId": "parsons-puzzle-180026109",
+  "points": 20,
+  "results": [
+   {
+    "points": 20,
+    "guidance": "",
+    "trashHash": "-",
+    "solutionHash": "0_0-1_0",
+    "toggleStates": "{}",
+    "studentCode": "System.out.print(\"Hello \");\nSystem.out.println(\"world\");",
+    "timestamp": "2021-03-03T23:18:33.506Z",
+    "state": "pass"
+   }
+  ],
+  "state": {
+   "trashHash": "-",
+   "solutionHash": "0_0-1_0",
+   "toggleStates": "{}"
+  }
+ },
+ {
+  "taskId": "multiple-choice-789767487",
+  "points": 0,
+  "state": {
+   "active": "3fb8b1c8-758e-b705-f860-68dc3d5ee0f9"
+  },
+  "results": [
+   {
+    "guidance": "test",
+    "current": [
+     "3fb8b1c8-758e-b705-f860-68dc3d5ee0f9"
+    ],
+    "right": [
+     "6075fd1f-1887-de74-5af3-25505579b106"
+    ],
+    "timestamp": "2021-03-03T23:18:12.756Z",
+    "state": "fail"
+   }
+  ]
+ },
+ {
+  "taskId": "multiple-choice-4040221254",
+  "points": 0,
+  "state": {
+   "active": [
+    "6e63651d-84fb-89f7-73ef-e04e51d15611",
+    "3f130ea8-c018-9659-569b-59a57987a189",
+    "d4a1eba8-d712-b33d-8d89-ef1c80d1497e",
+    "31f95a58-4817-ce1e-6a10-117271468b13"
+   ]
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-3050683181",
+  "points": 0,
+  "state": {
+   "active": [
+    "fab5fb77-5482-d516-09e4-ab557a14b9c1",
+    "09bbcd80-aef9-51b8-0dc2-75c4c0f13049",
+    "771931c8-4f23-6367-940b-575527e9f804",
+    "32bab82e-abd7-a2d9-3d09-3455584b17f3"
+   ]
+  },
+  "results": []
+ },
+ {
+  "taskId": "free-text-1687401039",
+  "state": {
+   "text": "adfsdf  xcvxzczxczxczx"
+  },
+  "results": [
+   {
+    "comments": {
+     "value": ""
+    },
+    "status": "PENDING",
+    "answer": "adfsdf  xcvxzczxczxczx",
+    "timestamp": "2021-03-03T23:18:52.906Z",
+    "state": "fail"
+   }
+  ]
+ },
+ {
+  "taskId": "multiple-choice-744615580",
+  "points": 0,
+  "state": {
+   "active": "dfc2fbaf-6027-ac74-1db5-564d4e2daeec"
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-1899474536",
+  "points": 0,
+  "state": {
+   "active": [
+    "fsgsdfg"
+   ]
+  },
+  "results": [
+   {
+    "guidance": "",
+    "current": [
+     "fsgsdfg"
+    ],
+    "right": [
+     "test"
+    ],
+    "timestamp": "2021-03-03T23:18:38.879Z",
+    "state": "fail"
+   }
+  ]
+ }
+]

@@ -1,0 +1,336 @@
+[
+ {
+  "type": "grade-book",
+  "taskId": "grade-book-3818736853",
+  "source": {
+   "name": "Test Rubric",
+   "showName": true,
+   "isCollapsedOnStart": false,
+   "points": 20,
+   "arePartialPointsAllowed": true,
+   "rubrics": [
+    {
+     "id": "bf12c207-8223-d76f-4884-98341a953085",
+     "weight": 1,
+     "message": "Message 1"
+    },
+    {
+     "id": "ece46a57-276a-f777-bcf0-a6759d1a9713",
+     "weight": 1,
+     "message": "Message 2"
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Grade Book"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-180026109",
+  "source": {
+   "name": "Parson's Puzzle",
+   "showName": true,
+   "instructions": "Click and drag in the correct order.",
+   "initial": "System.out.print(&quot;Hello &quot;);\nSystem.out.println(&quot;world&quot;);",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\"}",
+   "grader": "1",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 20,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1899474536",
+  "source": {
+   "name": "Fill in the Blank",
+   "showName": true,
+   "instructions": "Fill in the blank",
+   "showValues": false,
+   "text": "test `inline code` <<<test>>>",
+   "distractors": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "test"
+    ],
+    "text": [
+     "test `inline code` ",
+     0
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-789767487",
+  "source": {
+   "name": "MC #1",
+   "showName": true,
+   "instructions": "Test",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "6075fd1f-1887-de74-5af3-25505579b106",
+     "correct": true,
+     "answer": "test 1"
+    },
+    {
+     "_id": "4ab5b80d-7d52-1674-7958-dad333d829a9",
+     "correct": false,
+     "answer": "test 2"
+    },
+    {
+     "_id": "a22a90ef-2194-fa4a-caed-68babaed21f7",
+     "correct": false,
+     "answer": "test 3"
+    },
+    {
+     "_id": "3fb8b1c8-758e-b705-f860-68dc3d5ee0f9",
+     "correct": false,
+     "answer": "test 4"
+    }
+   ],
+   "guidance": "test",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4040221254",
+  "source": {
+   "name": "MC #2 with Multiple response",
+   "showName": true,
+   "instructions": "multiple response",
+   "multipleResponse": true,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "31f95a58-4817-ce1e-6a10-117271468b13",
+     "correct": true,
+     "answer": "test 1"
+    },
+    {
+     "_id": "d4a1eba8-d712-b33d-8d89-ef1c80d1497e",
+     "correct": true,
+     "answer": "test 2"
+    },
+    {
+     "_id": "3f130ea8-c018-9659-569b-59a57987a189",
+     "correct": false,
+     "answer": "test 3"
+    },
+    {
+     "_id": "6e63651d-84fb-89f7-73ef-e04e51d15611",
+     "correct": false,
+     "answer": "test 4"
+    }
+   ],
+   "guidance": "test rationale",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-744615580",
+  "source": {
+   "name": "MC code",
+   "showName": true,
+   "instructions": "test with inline code\n\n`code`\n`code`\n`code`\n",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "504193e1-c240-ff9b-7647-056bb2827955",
+     "correct": true,
+     "answer": "`code`"
+    },
+    {
+     "_id": "372ce16b-b60e-d932-9e14-9ffa61d5db93",
+     "correct": false,
+     "answer": "`code`"
+    },
+    {
+     "_id": "dfc2fbaf-6027-ac74-1db5-564d4e2daeec",
+     "correct": false,
+     "answer": "`code`"
+    },
+    {
+     "_id": "bcbf5a01-6e11-3c9c-b7b4-32c7e08e9109",
+     "correct": false,
+     "answer": "`code`"
+    }
+   ],
+   "guidance": "test",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3050683181",
+  "source": {
+   "name": "MC code multiple response",
+   "showName": true,
+   "instructions": "`code`\n`code`\n`code`\n`code`\n`code`\n`code`\n`code`",
+   "multipleResponse": true,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "fab5fb77-5482-d516-09e4-ab557a14b9c1",
+     "correct": true,
+     "answer": "`code`"
+    },
+    {
+     "_id": "09bbcd80-aef9-51b8-0dc2-75c4c0f13049",
+     "correct": true,
+     "answer": "`code`"
+    },
+    {
+     "_id": "771931c8-4f23-6367-940b-575527e9f804",
+     "correct": false,
+     "answer": "`code`"
+    },
+    {
+     "_id": "32bab82e-abd7-a2d9-3d09-3455584b17f3",
+     "correct": false,
+     "answer": "`code`"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-1687401039",
+  "source": {
+   "name": "Free Text",
+   "showName": true,
+   "instructions": "Describe blah blah blah\n`code`\n`code`\n`code`",
+   "guidance": "rationale",
+   "showGuidanceAfterResponse": true,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "points": 20,
+   "rubrics": [],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ }
+]

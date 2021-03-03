@@ -1,0 +1,43 @@
+{
+    "Codio": false, // hides the Codio menu dropdown
+    "Project": {
+         "Settings": false,
+         "Permissions": false,
+         "Stack": false,
+         "Box Info": false,
+         "Restart Box": false,
+         "Reset Box": false,
+         "Resync File Tree": false,
+         "Create Copy": false,
+         "Share": false,
+         "Export as Zip": false,
+         "QR Code for Preview URL": false,
+         "Delete": false
+    },
+     "File": {
+         "New File": false,
+         "New Folder": false,
+         "Open File": false,
+         "Rename Item": false,
+         "Delete Item": false
+    },
+    "View": {
+         "File Tree": false,
+		 "Panels": false,
+		 "Layouts": false,
+		 "Editor Font Size": false,
+		 "Tab Size": false,
+		 "Soft Tabs": false,
+		 "Navigate within soft tabs": false,
+		 "Wrap": false,
+		 "Editor Theme": false,
+		 "Terminal Theme": false,
+		 "Terminal Font Size": false
+    },
+    "Tools": false,
+    "Education": false,
+    "Help": false, // hides the Help menu dropdown
+    "Run": false, // hides the Run menu dropdown
+    "Preview": false, // hides the Preview menu dropdown
+    "Debugger": false // hides the Debugger menu dropdown
+}
