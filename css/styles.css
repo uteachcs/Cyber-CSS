@@ -1789,18 +1789,7 @@ mark {
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
 
-*,
-::after,
-::before {
-    box-sizing: border-box
-}
 
-html {
-    font-family: sans-serif;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent
-}
 
 article,
 aside,
@@ -1815,16 +1804,7 @@ section {
     display: block
 }
 
-body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    background-color: #fff
-}
+
 
 [tabindex="-1"]:focus:not(:focus-visible) {
     outline: 0 !important
@@ -1836,20 +1816,9 @@ hr {
     overflow: visible
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-top: 0;
-    margin-bottom: .5rem
-}
 
-p {
-    margin-top: 0;
-    margin-bottom: 1rem
-}
+
+
 
 abbr[data-original-title],
 abbr[title] {
@@ -1920,26 +1889,7 @@ sup {
     top: -.5em
 }
 
-a {
-    color: #007bff;
-    text-decoration: none;
-    background-color: transparent
-}
 
-a:hover {
-    color: #0056b3;
-    text-decoration: underline
-}
-
-a:not([href]) {
-    color: inherit;
-    text-decoration: none
-}
-
-a:not([href]):hover {
-    color: inherit;
-    text-decoration: none
-}
 
 code,
 kbd,
@@ -2123,52 +2073,6 @@ template {
     display: none !important
 }
 
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-bottom: .5rem;
-    font-weight: 500;
-    line-height: 1.2
-}
-
-.h1,
-h1 {
-    font-size: 2.5rem
-}
-
-.h2,
-h2 {
-    font-size: 2rem
-}
-
-.h3,
-h3 {
-    font-size: 1.75rem
-}
-
-.h4,
-h4 {
-    font-size: 1.5rem
-}
-
-.h5,
-h5 {
-    font-size: 1.25rem
-}
-
-.h6,
-h6 {
-    font-size: 1rem
-}
 
 .lead {
     font-size: 1.25rem;
@@ -12010,39 +11914,6 @@ button.bg-dark:hover {
     }
 }
 
-.text-monospace {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important
-}
-
-.text-justify {
-    text-align: justify !important
-}
-
-.text-wrap {
-    white-space: normal !important
-}
-
-.text-nowrap {
-    white-space: nowrap !important
-}
-
-.text-truncate {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap
-}
-
-.text-left {
-    text-align: left !important
-}
-
-.text-right {
-    text-align: right !important
-}
-
-.text-center {
-    text-align: center !important
-}
 
 @media (min-width:576px) {
     .text-sm-left {
@@ -12092,239 +11963,4 @@ button.bg-dark:hover {
     }
 }
 
-.text-lowercase {
-    text-transform: lowercase !important
-}
-
-.text-uppercase {
-    text-transform: uppercase !important
-}
-
-.text-capitalize {
-    text-transform: capitalize !important
-}
-
-.font-weight-light {
-    font-weight: 300 !important
-}
-
-.font-weight-lighter {
-    font-weight: lighter !important
-}
-
-.font-weight-normal {
-    font-weight: 400 !important
-}
-
-.font-weight-bold {
-    font-weight: 700 !important
-}
-
-.font-weight-bolder {
-    font-weight: bolder !important
-}
-
-.font-italic {
-    font-style: italic !important
-}
-
-.text-white {
-    color: #fff !important
-}
-
-.text-primary {
-    color: #007bff !important
-}
-
-a.text-primary:focus,
-a.text-primary:hover {
-    color: #0056b3 !important
-}
-
-.text-secondary {
-    color: #6c757d !important
-}
-
-a.text-secondary:focus,
-a.text-secondary:hover {
-    color: #494f54 !important
-}
-
-.text-success {
-    color: #28a745 !important
-}
-
-a.text-success:focus,
-a.text-success:hover {
-    color: #19692c !important
-}
-
-.text-info {
-    color: #17a2b8 !important
-}
-
-a.text-info:focus,
-a.text-info:hover {
-    color: #0f6674 !important
-}
-
-.text-warning {
-    color: #ffc107 !important
-}
-
-a.text-warning:focus,
-a.text-warning:hover {
-    color: #ba8b00 !important
-}
-
-.text-danger {
-    color: #dc3545 !important
-}
-
-a.text-danger:focus,
-a.text-danger:hover {
-    color: #a71d2a !important
-}
-
-.text-light {
-    color: #f8f9fa !important
-}
-
-a.text-light:focus,
-a.text-light:hover {
-    color: #cbd3da !important
-}
-
-.text-dark {
-    color: #343a40 !important
-}
-
-a.text-dark:focus,
-a.text-dark:hover {
-    color: #121416 !important
-}
-
-.text-body {
-    color: #212529 !important
-}
-
-.text-muted {
-    color: #6c757d !important
-}
-
-.text-black-50 {
-    color: rgba(0, 0, 0, .5) !important
-}
-
-.text-white-50 {
-    color: rgba(255, 255, 255, .5) !important
-}
-
-.text-hide {
-    font: 0/0 a;
-    color: transparent;
-    text-shadow: none;
-    background-color: transparent;
-    border: 0
-}
-
-.text-decoration-none {
-    text-decoration: none !important
-}
-
-.text-break {
-    word-break: break-word !important;
-    overflow-wrap: break-word !important
-}
-
-.text-reset {
-    color: inherit !important
-}
-
-.visible {
-    visibility: visible !important
-}
-
-.invisible {
-    visibility: hidden !important
-}
-
-@media print {
-    *,
-    ::after,
-    ::before {
-        text-shadow: none !important;
-        box-shadow: none !important
-    }
-    a:not(.btn) {
-        text-decoration: underline
-    }
-    abbr[title]::after {
-        content: " (" attr(title) ")"
-    }
-    pre {
-        white-space: pre-wrap !important
-    }
-    blockquote,
-    pre {
-        border: 1px solid #adb5bd;
-        page-break-inside: avoid
-    }
-    thead {
-        display: table-header-group
-    }
-    img,
-    tr {
-        page-break-inside: avoid
-    }
-    h2,
-    h3,
-    p {
-        orphans: 3;
-        widows: 3
-    }
-    h2,
-    h3 {
-        page-break-after: avoid
-    }
-    @page {
-        size: a3
-    }
-    body {
-        min-width: 992px !important
-    }
-    .container {
-        min-width: 992px !important
-    }
-    .navbar {
-        display: none
-    }
-    .badge {
-        border: 1px solid #000
-    }
-    .tableBoot {
-        border-collapse: collapse !important
-    }
-    .tableBoot td,
-    .tableBoot th {
-        background-color: #fff !important
-    }
-    .tableBoot-bordered td,
-    .tableBoot-bordered th {
-        border: 1px solid #dee2e6 !important
-    }
-    .tableBoot-dark {
-        color: inherit
-    }
-    .tableBoot-dark tbody + tbody,
-    .tableBoot-dark td,
-    .tableBoot-dark th,
-    .tableBoot-dark thead th {
-        border-color: #dee2e6
-    }
-    .tableBoot .thead-dark th {
-        color: inherit;
-        border-color: #dee2e6
-    }
-}
 

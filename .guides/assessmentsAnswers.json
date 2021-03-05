@@ -1,22 +1,11 @@
 [
  {
   "taskId": "parsons-puzzle-180026109",
-  "points": 20,
-  "results": [
-   {
-    "points": 20,
-    "guidance": "",
-    "trashHash": "-",
-    "solutionHash": "0_0-1_0",
-    "toggleStates": "{}",
-    "studentCode": "System.out.print(\"Hello \");\nSystem.out.println(\"world\");",
-    "timestamp": "2021-03-03T23:18:33.506Z",
-    "state": "pass"
-   }
-  ],
+  "points": 0,
+  "results": [],
   "state": {
-   "trashHash": "-",
-   "solutionHash": "0_0-1_0",
+   "trashHash": null,
+   "solutionHash": null,
    "toggleStates": "{}"
   }
  },
@@ -24,21 +13,9 @@
   "taskId": "multiple-choice-789767487",
   "points": 0,
   "state": {
-   "active": "3fb8b1c8-758e-b705-f860-68dc3d5ee0f9"
+   "active": null
   },
-  "results": [
-   {
-    "guidance": "test",
-    "current": [
-     "3fb8b1c8-758e-b705-f860-68dc3d5ee0f9"
-    ],
-    "right": [
-     "6075fd1f-1887-de74-5af3-25505579b106"
-    ],
-    "timestamp": "2021-03-03T23:18:12.756Z",
-    "state": "fail"
-   }
-  ]
+  "results": []
  },
  {
   "taskId": "multiple-choice-4040221254",
@@ -95,22 +72,8 @@
   "taskId": "fill-in-the-blanks-1899474536",
   "points": 0,
   "state": {
-   "active": [
-    "fsgsdfg"
-   ]
+   "active": []
   },
-  "results": [
-   {
-    "guidance": "",
-    "current": [
-     "fsgsdfg"
-    ],
-    "right": [
-     "test"
-    ],
-    "timestamp": "2021-03-03T23:18:38.879Z",
-    "state": "fail"
-   }
-  ]
+  "results": []
  }
 ]
