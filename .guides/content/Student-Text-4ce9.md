@@ -1,5 +1,44 @@
 {Run Code}()
 
+**markdown bold**
+__markdown bold__
+
+_Italics_
+*Italics*
+
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+
+`inline code` test. is this red or `black`?
+
+Inline `code` <span style="color: red; font-family: monospace; font-size: 77%; font-weight: 400; font-style: normal; padding: 0.2em; background-color: #f7f9fc; border: 1px solid #c7d5f6; border-radius: 2px; ">where we add the CSS in the guide</span>
+
+```
+code block
+code block
+code block
+```
+
+``` js
+js code block
+code block
+```
+
+``` python
+#python
+name = input("Enter your name: ")
+print(name)
+```
+
+``` java
+\\java
+for (int i = 0; i < 20; i++)
+	System.out.println("I love coding");
+
+```
+
 [Google](https://www.google.com/)
 
 {Check It!|assessment}(grade-book-3818736853)
@@ -111,7 +150,7 @@ Directions for students
 </tbody>
 </table>
 
-## Bootstrap Table - needs some formatting
+## Bootstrap Table
 
 <table class="tableBoot tableBoot-striped tableBoot-bordered p-2"><caption style="display: none">Password Generator Project Rubric</caption>
 <thead style="background-color: #d5e4fa; color: #20579b; font-weight: bold;"> 
