@@ -164,7 +164,7 @@ Directions for students
 <tr>
 <td>
 <p><strong>Readability<br /></strong></p>
-<p>Algorithm is typed, organized, and nicely formatted for easy use.</p>
+<p >Algorithm is typed, organized, and nicely formatted for easy use.</p>
 <p><strong>Weighted: 20%</strong></p>
 </td>
 <td>
