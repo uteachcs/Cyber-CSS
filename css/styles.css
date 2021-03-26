@@ -978,6 +978,11 @@ textarea {
   box-shadow: inset 0 0 0 1px #fff;
 }
 
+.codio-button:disabled {
+  cursor: not-allowed;
+} 
+
+
 .codio-button-diff {
   float: right;
   text-transform: none;
@@ -1421,7 +1426,7 @@ footer {
   font-family: 'Nunito Sans';
 }
 
-footer a {
+footer button {
   text-decoration: none;
   background-image: none;
   line-height: 2em;
@@ -1436,12 +1441,12 @@ footer a {
   margin-right: 20px;
 }
 
-footer a:hover {
+footer button:hover {
   border-color: #444;
   color: #444;
 }
 
-footer a span::after {
+footer button span::after {
   background-image: url('https://codio.com/assets/images/guides/footer-next.png');
   background-size: 1em 1em;
   width: 1em;
@@ -1454,7 +1459,7 @@ footer a span::after {
   margin-left: 0.1em;
 }
 
-footer a.plain span::after {
+footer button.plain span::after {
   display: none;
 }
 
@@ -1937,16 +1942,16 @@ label {
     margin-bottom: .5rem
 }
 
-button {
+buttonBoot {
     border-radius: 0
 }
 
-button:focus {
+buttonBoot:focus {
     outline: 1px dotted;
     outline: 5px auto -webkit-focus-ring-color
 }
 
-button,
+buttonBoot,
 input,
 optgroup,
 select,
@@ -1957,12 +1962,12 @@ textarea {
     line-height: inherit
 }
 
-button,
+buttonBoot,
 input {
     overflow: visible
 }
 
-button,
+buttonBoot,
 select {
     text-transform: none
 }
@@ -1971,24 +1976,24 @@ select {
     word-wrap: normal
 }
 
-[type=button],
+[type=buttonBoot],
 [type=reset],
 [type=submit],
-button {
+buttonBoot {
     -webkit-appearance: button
 }
 
-[type=button]:not(:disabled),
+[type=buttonBoot]:not(:disabled),
 [type=reset]:not(:disabled),
 [type=submit]:not(:disabled),
-button:not(:disabled) {
+buttonBoot:not(:disabled) {
     cursor: pointer
 }
 
-[type=button]::-moz-focus-inner,
+[type=buttonBoot]::-moz-focus-inner,
 [type=reset]::-moz-focus-inner,
 [type=submit]::-moz-focus-inner,
-button::-moz-focus-inner {
+buttonBoot::-moz-focus-inner {
     padding: 0;
     border-style: none
 }
