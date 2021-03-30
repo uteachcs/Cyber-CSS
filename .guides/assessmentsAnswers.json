@@ -46,7 +46,7 @@
  {
   "taskId": "free-text-1687401039",
   "state": {
-   "text": "adfsdf  xcvxzczxczxczx"
+   "text": "adfsdf "
   },
   "results": [
    {
@@ -54,8 +54,8 @@
      "value": ""
     },
     "status": "PENDING",
-    "answer": "adfsdf  xcvxzczxczxczx",
-    "timestamp": "2021-03-03T23:18:52.906Z",
+    "answer": "adfsdf ",
+    "timestamp": "2021-03-30T22:58:10.146Z",
     "state": "fail"
    }
   ]

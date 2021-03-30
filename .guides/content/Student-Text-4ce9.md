@@ -153,7 +153,7 @@ Directions for students
 ## Bootstrap Table
 
 <table class="tableBoot tableBoot-striped tableBoot-bordered p-2"><caption style="display: none">Password Generator Project Rubric</caption>
-<thead style="background-color: #d5e4fa; color: #20579b; font-weight: bold;"> 
+<thead style="background-color: #badbe0; color: #00737d; font-weight: bold;"> 
 <tr>
 <th scope="col">Criteria</th>
 <th scope="col">Scoring Notes</th>

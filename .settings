@@ -1,5 +1,6 @@
 [editor]
 tab_size = 4
+automatic_completions=false
 ; enter your editor preferences here...
 
 [ide]
