@@ -1,0 +1,51 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "6075fd1f-1887-de74-5af3-25505579b106",
+				"answer": "test 1",
+				"correct": true
+			},
+			{
+				"_id": "4ab5b80d-7d52-1674-7958-dad333d829a9",
+				"answer": "test 2",
+				"correct": false
+			},
+			{
+				"_id": "a22a90ef-2194-fa4a-caed-68babaed21f7",
+				"answer": "test 3",
+				"correct": false
+			},
+			{
+				"_id": "3fb8b1c8-758e-b705-f860-68dc3d5ee0f9",
+				"answer": "test 4",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "test",
+		"incorrectPoints": 0,
+		"instructions": "Test",
+		"isRandomized": false,
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "MC #1",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponse": true,
+		"showName": true
+	},
+	"taskId": "multiple-choice-789767487",
+	"type": "multiple-choice"
+}

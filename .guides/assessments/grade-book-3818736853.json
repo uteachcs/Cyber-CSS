@@ -1,0 +1,35 @@
+{
+	"source": {
+		"arePartialPointsAllowed": true,
+		"bloomsObjectiveLevel": "",
+		"isCollapsedOnStart": false,
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Grade Book"
+				}
+			]
+		},
+		"name": "Test Rubric",
+		"points": 20,
+		"rubrics": [
+			{
+				"id": "bf12c207-8223-d76f-4884-98341a953085",
+				"message": "Message 1",
+				"weight": 1
+			},
+			{
+				"id": "ece46a57-276a-f777-bcf0-a6759d1a9713",
+				"message": "Message 2",
+				"weight": 1
+			}
+		],
+		"showName": true
+	},
+	"taskId": "grade-book-3818736853",
+	"type": "grade-book"
+}

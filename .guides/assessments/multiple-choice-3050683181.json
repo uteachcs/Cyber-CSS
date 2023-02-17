@@ -1,0 +1,51 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "fab5fb77-5482-d516-09e4-ab557a14b9c1",
+				"answer": "`code`",
+				"correct": true
+			},
+			{
+				"_id": "09bbcd80-aef9-51b8-0dc2-75c4c0f13049",
+				"answer": "`code`",
+				"correct": true
+			},
+			{
+				"_id": "771931c8-4f23-6367-940b-575527e9f804",
+				"answer": "`code`",
+				"correct": false
+			},
+			{
+				"_id": "32bab82e-abd7-a2d9-3d09-3455584b17f3",
+				"answer": "`code`",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "",
+		"incorrectPoints": 0,
+		"instructions": "`code`\n`code`\n`code`\n`code`\n`code`\n`code`\n`code`",
+		"isRandomized": false,
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": true,
+		"name": "MC code multiple response",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponse": false,
+		"showName": true
+	},
+	"taskId": "multiple-choice-3050683181",
+	"type": "multiple-choice"
+}

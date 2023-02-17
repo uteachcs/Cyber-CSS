@@ -1,0 +1,28 @@
+{
+	"source": {
+		"bloomsObjectiveLevel": "",
+		"grader": "1",
+		"guidance": "",
+		"initial": "System.out.print(\u0026quot;Hello \u0026quot;);\nSystem.out.println(\u0026quot;world\u0026quot;);",
+		"instructions": "Click and drag in the correct order.",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Parsons Puzzle"
+				}
+			]
+		},
+		"name": "Parson's Puzzle",
+		"oneTimeTest": false,
+		"options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\"}",
+		"points": 20,
+		"showGuidanceAfterResponse": false,
+		"showName": true
+	},
+	"taskId": "parsons-puzzle-180026109",
+	"type": "parsons-puzzle"
+}

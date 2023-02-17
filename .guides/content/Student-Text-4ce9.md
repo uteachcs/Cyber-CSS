@@ -33,7 +33,7 @@ print(name)
 ```
 
 ``` java
-\\java
+//java
 for (int i = 0; i < 20; i++)
 	System.out.println("I love coding");
 
@@ -59,14 +59,11 @@ as;dlkf
 aSdfkl
 |||
 
-||| warning
-### Go Back
-
-|||
-
 ||| create
 ### Try It Out!
-Directions for students
+This box is the **create** call-out box that is used to provide instructions for students to complete an activity.
+ 
+
 
 |||
 
@@ -77,11 +74,14 @@ Directions for students
 
 ||| definition
 ### Vocabulary words
+This box is the **definition** call-out box that is used for unit vocabulary words.
 
 |||
 
 ||| info
-### info box
+### Information Box
+This box is the **info** call-out box that is used for general information.
+
 
 |||
 
@@ -153,7 +153,7 @@ Directions for students
 ## Bootstrap Table
 
 <table class="tableBoot tableBoot-striped tableBoot-bordered p-2"><caption style="display: none">Password Generator Project Rubric</caption>
-<thead style="background-color: #badbe0; color: #00737d; font-weight: bold;"> 
+<thead style="background-color: #DEF0E6; color: #00774F; font-weight: bold;"> 
 <tr>
 <th scope="col">Criteria</th>
 <th scope="col">Scoring Notes</th>

@@ -1,0 +1,21 @@
+{
+	"allowGuideClose": true,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": false,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "",
+	"order": [
+		"Teacher-Lesson-Plan-397f",
+		"Student-Text-4ce9",
+		"2nd-Page-8205",
+		"Teacher-Only---Additional-Information-a784"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": true,
+	"theme": "light",
+	"title": "Unit 1:Password Generator Project",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": true
+}

@@ -1,0 +1,39 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"distractors": "",
+		"guidance": "",
+		"instructions": "Fill in the blank",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			]
+		},
+		"name": "Fill in the Blank",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponse": false,
+		"showName": true,
+		"showValues": false,
+		"text": "test `inline code` \u003c\u003c\u003ctest\u003e\u003e\u003e",
+		"tokens": {
+			"blank": [
+				"test"
+			],
+			"regexPositions": [],
+			"text": [
+				"test `inline code` ",
+				0
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-1899474536",
+	"type": "fill-in-the-blanks"
+}

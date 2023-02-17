@@ -1,0 +1,23 @@
+{
+	"chapter": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": ".guides/img/UTeach-CS-logo.png"
+		}
+	],
+	"id": "82052d8c-09b4-586c-f025-f5e45b9419ee",
+	"layout": "2-panels-guides-left",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "2nd Page",
+	"type": "page"
+}

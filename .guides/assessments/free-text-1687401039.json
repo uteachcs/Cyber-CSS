@@ -1,0 +1,28 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "rationale",
+		"instructions": "Describe blah blah blah\n`code`\n`code`\n`code`",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Free Text"
+				}
+			]
+		},
+		"name": "Free Text",
+		"oneTimeTest": false,
+		"points": 20,
+		"previewType": "NONE",
+		"rubrics": [],
+		"showGuidanceAfterResponse": true,
+		"showName": true
+	},
+	"taskId": "free-text-1687401039",
+	"type": "free-text"
+}
